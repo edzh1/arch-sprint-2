@@ -1,35 +1,4 @@
-# pymongo-api
+## Решения лежат по папкам `mongo-sharding`, `mongo-sharding-repl`, `sharding-repl-cache`
+Для работы я использую мак на м2, потому у образов поставил платформу `arm64`
 
-## Как запустить
-
-Запускаем mongodb и приложение
-
-```shell
-docker compose up -d
-```
-
-Заполняем mongodb данными
-
-```shell
-./scripts/mongo-init.sh
-```
-
-## Как проверить
-
-### Если вы запускаете проект на локальной машине
-
-Откройте в браузере http://localhost:8080
-
-### Если вы запускаете проект на предоставленной виртуальной машине
-
-Узнать белый ip виртуальной машины
-
-```shell
-curl --silent http://ifconfig.me
-```
-
-Откройте в браузере http://<ip виртуальной машины>:8080
-
-## Доступные эндпоинты
-
-Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
+## Схемы [draw.io](https://drive.google.com/file/d/1mv5CVhVcz7KO324fNb-gWTOWcsMZhLS4/view?usp=sharing)
